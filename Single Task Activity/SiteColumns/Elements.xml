@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+     ID="{2A931BDB-5FE2-4F52-BD7A-7C5FF4705DC8}"
+     Name="Approver1"
+     DisplayName="Approver1"
+     Mult="False"
+     UserSelectionMode="PeopleOnly"
+     Type="User"
+     Group="SPJ custom columns">
+  </Field>
+  <Field
+     ID="{2460FCFB-285B-40B7-AF44-CC2ABD767FB0}"
+     Name="SecondApprover"
+     DisplayName="Approver2"
+     Mult="False"
+     UserSelectionMode="PeopleOnly"
+     Type="User"  
+     ShowInNewForm="FALSE"
+     ShowInEditForm="FALSE"
+     Group="SPJ custom columns">
+  </Field>
+</Elements>

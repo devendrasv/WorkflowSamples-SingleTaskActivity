@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01006F12800B4F104F0CAF2732F3914A4735" Name="ContentType" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{2A931BDB-5FE2-4F52-BD7A-7C5FF4705DC8}" DisplayName="Approver1" Required="TRUE" Name="Approver1" />
+      <FieldRef ID="{2460FCFB-285B-40B7-AF44-CC2ABD767FB0}" DisplayName="Approver2" Name="SecondApprover" ShowInNewForm="FALSE" ShowInEditForm="FALSE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>
